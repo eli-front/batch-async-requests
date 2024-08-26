@@ -1,6 +1,6 @@
 {
   "name": "batch-async-requests",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "a function to batch async requests",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",

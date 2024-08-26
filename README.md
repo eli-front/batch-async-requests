@@ -4,6 +4,45 @@
 
 The `batchAsyncRequests` function is a utility that processes asynchronous requests in batches. This function takes an array of data and applies a given method to chunks of that data, handling each chunk asynchronously. It is useful for optimizing large sets of requests and reducing the load on APIs or other services by limiting the number of simultaneous requests.
 
+### Installation
+
+You can install the `batch-async-requests` package via npm or yarn. Follow the steps below to add it to your project.
+
+#### Using npm
+
+Run the following command in your terminal:
+
+```bash
+npm install batch-async-requests
+```
+
+#### Using yarn
+
+If you prefer using yarn, run:
+
+```bash
+yarn add batch-async-requests
+```
+
+#### Importing the Package
+
+Once installed, you can import and use the `batchAsyncRequests` function in your TypeScript or JavaScript project:
+
+```ts
+import { batchAsyncRequests } from 'batch-async-requests';
+
+// Example usage
+const data = [/* your data array */];
+const result = await batchAsyncRequests(data, async (chunk) => {
+  // Your async operation here
+});
+```
+
+#### TypeScript Support
+
+This package includes TypeScript type definitions, so you get full type support when using it in TypeScript projects.
+
+
 ### Type Definitions
 
 #### `BatchAsyncRequestsOptions`
