@@ -23,6 +23,7 @@
   },
   "homepage": "https://github.com/eli-front/batch-async-requests#readme",
   "devDependencies": {
+    "@types/node": "^22.5.0",
     "typescript": "^5.5.4"
   }
 }
