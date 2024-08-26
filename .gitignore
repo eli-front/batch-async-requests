@@ -1,0 +1,5 @@
+# Node modules directory
+node_modules/
+
+# Output directories for TypeScript builds
+dist/

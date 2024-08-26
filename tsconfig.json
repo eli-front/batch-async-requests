@@ -1,0 +1,8 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Set to ESNext for latest JavaScript features
+    "module": "ESNext", // Set module to ESNext for ES modules
+    "outDir": "./dist",
+    "rootDir": "./src"
+  }
+}

@@ -1,0 +1,27 @@
+{
+  "name": "batch-async-requests",
+  "version": "1.0.0",
+  "description": "a function to batch async requests",
+  "main": "index.ts",
+  "scripts": {
+    "build": "tsc"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eli-front/batch-async-requests.git"
+  },
+  "keywords": [
+    "batch",
+    "async",
+    "memory"
+  ],
+  "author": "Eli Front",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eli-front/batch-async-requests/issues"
+  },
+  "homepage": "https://github.com/eli-front/batch-async-requests#readme",
+  "devDependencies": {
+    "typescript": "^5.5.4"
+  }
+}
