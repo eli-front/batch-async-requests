@@ -3,6 +3,19 @@
     "target": "ESNext", // Set to ESNext for latest JavaScript features
     "module": "ESNext", // Set module to ESNext for ES modules
     "outDir": "./dist",
-    "rootDir": "./src"
-  }
+    "rootDir": "./src",
+    "strict": true, // Enable strict type checking
+    "esModuleInterop": true, // Enable ES module interoperability
+    "moduleResolution": "node", // Use Node.js-style module resolution
+    "declaration": true, // Generate .d.ts files
+    "declarationDir": "./dist", // (Optional) Directory for .d.ts files
+    "sourceMap": true
+  },
+  "include": [
+    "src/**/*.ts"
+  ], // Include all .ts files in the src directory
+  "exclude": [
+    "node_modules",
+    "dist"
+  ] // Exclude node_modules and dist directories
 }
